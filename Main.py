@@ -14,4 +14,4 @@ for component in cal_file.walk():
         print(component.get("summary"))
         print(component.decoded("dtstart"))
         print(component.decoded("dtend"))
-g.close()
+file.close()
